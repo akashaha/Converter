@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B223E7402791CCE200055181 /* Temp_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B223E73F2791CCE200055181 /* Temp_CalculatorApp.swift */; };
+		B223E7402791CCE200055181 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B223E73F2791CCE200055181 /* Converter.swift */; };
 		B223E7422791CCE200055181 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B223E7412791CCE200055181 /* ContentView.swift */; };
 		B223E7442791CCE400055181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B223E7432791CCE400055181 /* Assets.xcassets */; };
 		B223E7472791CCE400055181 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B223E7462791CCE400055181 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		B223E73C2791CCE200055181 /* Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Converter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B223E73F2791CCE200055181 /* Temp_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp_CalculatorApp.swift; sourceTree = "<group>"; };
+		B223E73F2791CCE200055181 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		B223E7412791CCE200055181 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B223E7432791CCE400055181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B223E7462791CCE400055181 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		B223E7332791CCE200055181 = {
 			isa = PBXGroup;
 			children = (
-				B223E73E2791CCE200055181 /* Temp Calculator */,
+				B223E73E2791CCE200055181 /* Converter */,
 				B223E73D2791CCE200055181 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,15 +48,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B223E73E2791CCE200055181 /* Temp Calculator */ = {
+		B223E73E2791CCE200055181 /* Converter */ = {
 			isa = PBXGroup;
 			children = (
-				B223E73F2791CCE200055181 /* Temp_CalculatorApp.swift */,
+				B223E73F2791CCE200055181 /* Converter.swift */,
 				B223E7412791CCE200055181 /* ContentView.swift */,
 				B223E7432791CCE400055181 /* Assets.xcassets */,
 				B223E7452791CCE400055181 /* Preview Content */,
 			);
-			path = "Temp Calculator";
+			path = Converter;
 			sourceTree = "<group>";
 		};
 		B223E7452791CCE400055181 /* Preview Content */ = {
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B223E7422791CCE200055181 /* ContentView.swift in Sources */,
-				B223E7402791CCE200055181 /* Temp_CalculatorApp.swift in Sources */,
+				B223E7402791CCE200055181 /* Converter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +268,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Temp Calculator/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Converter/Preview Content\"";
 				DEVELOPMENT_TEAM = UCVZ5TKU4C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -297,7 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Temp Calculator/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Converter/Preview Content\"";
 				DEVELOPMENT_TEAM = UCVZ5TKU4C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

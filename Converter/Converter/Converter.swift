@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Temp_CalculatorApp: App {
+struct Converter: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
